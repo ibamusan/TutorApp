@@ -1,0 +1,23 @@
+.header{
+  background-color: rgba($color-green-dark, .47);
+}
+.section-banner{
+  position: relative;
+  background-image: linear-gradient(to right bottom, rgba($color-primary-light, .5), 
+          rgba($color-primary-dark, .5)),
+          url(../images/nat-6.jpg);
+  background-size:cover;
+  height: 100vh;
+  width: 100%;
+  background-position: top;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
+}
+
+.banner{
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}

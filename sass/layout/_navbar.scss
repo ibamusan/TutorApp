@@ -1,0 +1,55 @@
+
+.navbar-light .navbar-brand{
+  color:$color-white;
+  font-size: 30px;
+  margin-right: 100px;
+  font-style: italic;
+  font-weight: bold;
+  animation-name: moveInRight;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+
+}
+
+.bg-light{
+  background-color: transparent !important;
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .active>.nav-link{
+  color:$color-white;
+  font-size: $default-font-size;
+  padding: 10px;
+
+  &:hover{
+    color:rgba($color-black, .7);
+  }
+
+}
+
+.form-control,
+.btn-1{
+  font-size:$default-font-size;
+  color:$color-white;
+}
+
+.btn-1{
+  background-color: $color-green-dark;
+  border-color: $color-green-dark;
+  &:hover{
+    background-color: rgba($color-green-dark, .9);
+  }
+  
+}
+
+
+
+.dropdown-menu{
+  min-width: 30rem;
+  background-color: rgba($color-green-dark, .15);
+}
+
+.dropdown-item{
+  font-size: $default-font-size !important;
+  color: $color-white;
+}

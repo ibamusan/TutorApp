@@ -1,0 +1,27 @@
+.feature-box{
+  background-color: rgba($color-white, .6);
+  padding: 3rem;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+  transition: all .3s;
+
+  &__icon{
+    font-size: 6rem;
+    background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    
+  }
+
+  &:hover{
+    animation-name: moveInUp;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards;
+  }
+
+}
+
