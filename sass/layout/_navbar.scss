@@ -1,8 +1,8 @@
 
 .navbar-light .navbar-brand{
   color:$color-white;
-  font-size: 30px;
-  margin-right: 100px;
+  font-size: 25px;
+  margin-right: 50px;
   font-style: italic;
   font-weight: bold;
   animation-name: moveInRight;
@@ -19,7 +19,7 @@
 .navbar-light .navbar-nav .active>.nav-link{
   color:$color-white;
   font-size: $default-font-size;
-  padding: 10px;
+  padding: 5px;
 
   &:hover{
     color:rgba($color-black, .7);
@@ -33,6 +33,15 @@
   color:$color-white;
 }
 
+.form-control{
+  margin-left: 5rem;
+  width: 70% !important;  
+}
+
+.form-inline .btn{
+  width: 15rem;
+}
+
 .btn-1{
   background-color: $color-green-dark;
   border-color: $color-green-dark;
@@ -42,7 +51,9 @@
   
 }
 
-
+.btn-top .btn:not(:last-child){
+  margin-right: 10px;
+}
 
 .dropdown-menu{
   min-width: 30rem;
@@ -53,3 +64,4 @@
   font-size: $default-font-size !important;
   color: $color-white;
 }
+

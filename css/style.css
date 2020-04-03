@@ -209,8 +209,8 @@ body {
 
 .navbar-light .navbar-brand {
   color: #fff;
-  font-size: 30px;
-  margin-right: 100px;
+  font-size: 25px;
+  margin-right: 50px;
   font-style: italic;
   font-weight: bold;
   animation-name: moveInRight;
@@ -224,7 +224,7 @@ body {
 .navbar-light .navbar-nav .active > .nav-link {
   color: #fff;
   font-size: 1.8rem;
-  padding: 10px; }
+  padding: 5px; }
   .navbar-light .navbar-nav .nav-link:hover,
   .navbar-light .navbar-nav .active > .nav-link:hover {
     color: rgba(0, 0, 0, 0.7); }
@@ -234,11 +234,21 @@ body {
   font-size: 1.8rem;
   color: #fff; }
 
+.form-control {
+  margin-left: 5rem;
+  width: 70% !important; }
+
+.form-inline .btn {
+  width: 15rem; }
+
 .btn-1 {
   background-color: #3f6c45;
   border-color: #3f6c45; }
   .btn-1:hover {
     background-color: rgba(63, 108, 69, 0.9); }
+
+.btn-top .btn:not(:last-child) {
+  margin-right: 10px; }
 
 .dropdown-menu {
   min-width: 30rem;
